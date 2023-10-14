@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    color: #2ecc71;
+}
+
+.challenges-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.challenges-list li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.challenges-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
