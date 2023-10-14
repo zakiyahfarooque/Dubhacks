@@ -4,19 +4,16 @@ body {
 }
 
 .green-background {
-  background-image: url('C:\Users\imran\OneDrive\Desktop\forest.jpg'); /* Replace 'your-image.jpg' with the image URL or file path */
-  background-size: cover;
-  background-position: center;
+  background-color: lightgreen;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white; /* Adjust text color for better visibility */
 }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.7); /* Use a semi-transparent white background for better text readability */
+  background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
