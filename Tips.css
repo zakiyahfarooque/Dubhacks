@@ -71,3 +71,42 @@ ul.navbar {
 .navbar li a:hover {
     background-color: #52489C;
 }
+
+
+/* STYLE FACT GENERATOR */
+.generateFact {
+  background: #359240;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 20px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px ;
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+}
+
+#fact {
+  border-style: none;
+  
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #54ab5e;
+  font: bold;
+}
+
