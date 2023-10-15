@@ -62,7 +62,7 @@ ul{
   background-color: #3c8b3c;
   overflow:hidden;
   padding: 0.5em;
-    height: 50px;
+    height-bottom: 50px;
   text-align: right;
 }
 
@@ -79,7 +79,6 @@ li a {
 
 li a:hover {
   background-color: #3caf49
-     border-radius: 5px;
 }
 
 
