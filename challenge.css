@@ -1,14 +1,42 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
     background-color: #2c3e50; /* Darker green background */
     color: #fff; /* Text color */
+}
+
+/* Nav Bar */ 
+ul.navbar {
+    list-style-type: none;
+    background-color: #3c8b3c;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure the navigation bar appears on top of other elements */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.navbar li a:hover {
+    background-color: #52489C;
 }
 
 .container {
     position: relative;
     padding: 20px;
-    margin: 10px 0;
+    margin: 90px 20px 10px 20px; /* Adjusted margin to accommodate the fixed navigation bar */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -54,29 +82,3 @@ h2 {
     text-decoration: line-through;
     color: #999;
 }
-
-/* Nav Bar */ 
-
-ul{
-  list-style-type: none;
-  background-color: #3c8b3c;
-  overflow:hidden;
-  padding: 0.5em;
-  text-align: right;
-}
-
-li{
-  display: inline-block;
-}
-
-li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.3em;
-  padding: 1em;
-}
-
-li a:hover {
-  background-color: #52489C
-}
-
