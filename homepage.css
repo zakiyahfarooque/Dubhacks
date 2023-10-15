@@ -7,11 +7,9 @@ body {
 }
 
 header {
-   background-image: url(trees.png);
-    background-size: 300px;
-    background-position:bottom;
-    padding: 100px;
-    padding-bottom: 200px;
+   background-color: #2e3c2a;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 h1 {
