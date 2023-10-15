@@ -7,9 +7,12 @@ body {
 }
 
 header {
-   background-color: #2e3c2a;
-    color: #fff;
-    padding: 10px 20px;
+    background-image: url(assets/whiteHouseProtest.jpg); /*alt= "a huge crowd of people from different backgrounds with many different signs to make abortion legal"; */
+    background-size: 1300px;
+    background-position:bottom;
+    padding: 100px;
+    padding-bottom: 200px;
+     color: #fff;
 }
 
 nav ul {
