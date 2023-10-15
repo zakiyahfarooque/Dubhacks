@@ -12,14 +12,16 @@ ul.navbar {
     background-color: #3c8b3c;
     overflow: hidden;
     padding: 0.5em;
-    text-align: right;
+    text-align: center;
     position: fixed;
     width: 100%;
-    z-index: 1000; /* Ensure the navigation bar appears on top of other elements */
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar li {
-    display: inline-block;
+    display: inline;
+    margin: 0 10px; /* Add some horizontal spacing between menu items */
 }
 
 .navbar li a {
@@ -36,7 +38,7 @@ ul.navbar {
 .container {
     position: relative;
     padding: 20px;
-    margin: 90px 20px 10px 20px; /* Adjusted margin to accommodate the fixed navigation bar */
+    margin-top: 90px; /* Adjusted margin to accommodate the fixed navigation bar */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
