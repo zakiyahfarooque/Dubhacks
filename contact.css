@@ -1,5 +1,5 @@
 body {
-  background-color: #2E8B57; /* Slightly darker green background color */
+  background-color: #c9d6d3; /* Light sage background color */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -7,20 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
 
-ul.navbar {
-  list-style-type: none;
-  background-color: #2e7d2e; /* Match the background color to the body */
-  overflow: hidden;
-  padding: 0.5em;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: center; /* Center the navbar horizontally */
 }
 
 .container {
@@ -28,16 +15,68 @@ ul.navbar {
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 500px; /* Make the container wider */
+  width: 400px;
   text-align: center;
 }
 
-.input-box input {
-  width: 80%; /* Make the input text boxes slightly smaller */
+.container h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
 }
 
 .input-box label {
   font-size: 16px;
   color: #666;
   margin-bottom: 5px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007849; /* Green submit button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Nav Bar */ 
+ul.navbar {
+    list-style-type: none;
+    background-color: #3c8b3c;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px; /* Add some horizontal spacing between menu items */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.navbar li a:hover {
+    background-color: #52489C;
 }
