@@ -8,6 +8,7 @@ body {
 
 header {
     background-image: url(trees.png); 
+    background-repeat: no-repeat;
     background-size: 300px;
     background-position:bottom;
     padding: 100px;
