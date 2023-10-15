@@ -7,7 +7,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 .container {
@@ -52,31 +51,36 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-/* Nav Bar */ 
+
+/* Nav Bar */
 ul.navbar {
-    list-style-type: none;
-    background-color: #3c8b3c;
-    overflow: hidden;
-    padding: 0.5em;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+  list-style-type: none;
+  background-color: #3c8b3c;
+  overflow: hidden;
+  padding: 0.5em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+
+  /* Center the navbar horizontally */
+  display: flex;
+  justify-content: center;
 }
 
 .navbar li {
-    display: inline;
-    margin: 0 10px; /* Add some horizontal spacing between menu items */
+  display: inline;
+  margin: 0 10px; /* Add some horizontal spacing between menu items */
 }
 
 .navbar li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.3em;
-    padding: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3em;
+  padding: 1em;
 }
 
 .navbar li a:hover {
-    background-color: #52489C;
+  background-color: #52489C;
 }
