@@ -52,7 +52,6 @@ body {
   cursor: pointer;
 }
 
-/* Nav Bar */
 ul.navbar {
   list-style-type: none;
   background-color: #3c8b3c;
@@ -63,10 +62,6 @@ ul.navbar {
   width: 100%;
   top: 0;
   z-index: 1000;
-
-  /* Center the navbar horizontally */
-  display: flex;
-  justify-content: center;
 }
 
 .navbar li {
