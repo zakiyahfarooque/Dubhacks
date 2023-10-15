@@ -14,6 +14,13 @@ header {
     padding-bottom: 200px;
 }
 
+h1 {
+    color: white;
+  background-color: #2e3c2a;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -79,7 +86,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #3caf49
+  background-color: #52489C
 }
 
 
