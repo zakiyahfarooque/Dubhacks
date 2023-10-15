@@ -10,6 +10,7 @@ body {
     margin: 10px 0;
     border-radius: 10px; /* Optional: adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+    position: relative; /* Allows positioning of the image relative to the container */
 }
 
 .daily-challenges {
@@ -22,6 +23,13 @@ body {
 
 .monthly-challenges {
     background-color: #e74c3c; /* Light red background for monthly challenges */
+}
+
+.image-container {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    padding: 10px; /* Optional: adds padding around the image */
 }
 
 h1 {
