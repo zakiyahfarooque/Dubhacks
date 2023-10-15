@@ -30,6 +30,8 @@ body {
     top: 20px; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
     padding: 10px; /* Optional: adds padding around the image */
+    max-width: 100px; /* Maximum width of the image */
+    max-height: 100px; /* Maximum height of the image */
 }
 
 h1 {
