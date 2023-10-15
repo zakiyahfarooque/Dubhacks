@@ -20,6 +20,12 @@
         h1 {
             font-size: 36px;
         }
+      
+        .reward-container {
+            display: flex;
+            justify-content: space-around;
+          flex-wrap: wrap;
+        }
 
         .reward-card {
             background-color: #fff;
@@ -28,6 +34,7 @@
             margin: 20px;
             padding: 20px;
             text-align: center;
+            width: 20%;
         }
 
         .reward-image {
@@ -40,25 +47,25 @@
     <header>
         <h1>Rewards</h1>
     </header>
-
-    <div class="reward-card">
-        <img class="reward-image" src="waterbottle.jpg" alt="Reward 1">
-        <h2>Reusable Waterbottle</h2>
-        <p>Be kind to the environment and use a reuseable waterbottle!</p>
-    </div>
-
-    <div class="reward-card">
-        <img class="reward-image" src="earth.jpg" alt="Reward 2">
-        <h2>Plushie</h2>
-        <p>Cuddle up with a buddy for life!</p>
-    </div>
-
-    <div class="reward-card">
-        <img class="reward-image" src="giftCard.jpg" alt="Reward 3">
-        <h2>Gift Card</h2>
-        <p>Reward yourself for your dedication with a gift!</p>
-    </div>
-
+    <div class="reward-container">
+      <div class="reward-card">
+          <img class="reward-image" src="waterbottle.jpg" alt="Reward 1">
+          <h2>Reusable Waterbottle</h2>
+          <p>Be kind to the environment and use a reuseable waterbottle!</p>
+      </div>
+  
+      <div class="reward-card">
+          <img class="reward-image" src="earth.jpg" alt="Reward 2">
+          <h2>Plushie</h2>
+          <p>Cuddle up with a buddy for life!</p>
+      </div>
+  
+      <div class="reward-card">
+          <img class="reward-image" src="giftCard.jpg" alt="Reward 3">
+          <h2>Gift Card</h2>
+          <p>Reward yourself for your dedication with a gift!</p>
+      </div>
+    <div>
     <!-- Add more reward cards as needed -->
 
 </body>
