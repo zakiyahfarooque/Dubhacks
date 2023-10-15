@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url(assets/whiteHouseProtest.jpg); /*alt= "a huge crowd of people from different backgrounds with many different signs to make abortion legal"; */
+    background-image: url(trees.png); 
     background-size: 1300px;
     background-position:bottom;
     padding: 100px;
