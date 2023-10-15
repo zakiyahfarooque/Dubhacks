@@ -7,9 +7,11 @@ body {
 }
 
 header {
-    background-color: #2e3c2a;
-    color: #fff;
-    padding: 10px 20px;
+   background-image: url(tree.png);
+    background-size: 1300px;
+    background-position:bottom;
+    padding: 100px;
+    padding-bottom: 200px;
 }
 
 nav ul {
