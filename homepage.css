@@ -79,6 +79,7 @@ li a {
 
 li a:hover {
   background-color: #3caf49
+     border-radius: 5px;
 }
 
 
