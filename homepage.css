@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #2e3c2a;
     color: #fff;
     padding: 10px 20px;
 }
@@ -51,8 +51,33 @@ imgcaption {
 
 
 .homeImages img {
-  height: 10px;
+  height: 20em;
   margin: 5px;
+}
+
+/* Nav Bar */ 
+
+ul{
+  list-style-type: none;
+  background-color: #3c8b3c;
+  overflow:hidden;
+  padding: 0.5em;
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #3caf49
 }
 
 
@@ -62,3 +87,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
