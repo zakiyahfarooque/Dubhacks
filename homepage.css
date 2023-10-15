@@ -12,13 +12,6 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
-    color: #fff;
-/*  background-color: #2e3c2a; */
-  font-family: Arial, sans-serif;
-  padding: 10px;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
