@@ -17,13 +17,7 @@ body {
     background-color: #2ecc71; /* Light green background for daily challenges */
 }
 
-.weekly-challenges {
-    background-color: #3498db; /* Light blue background for weekly challenges */
-}
-
-.monthly-challenges {
-    background-color: #e74c3c; /* Light red background for monthly challenges */
-}
+/* Similar styling for weekly-challenges and monthly-challenges classes */
 
 .image-container {
     position: absolute;
