@@ -1,9 +1,9 @@
 var factList = [
-"Black and indigenous women in the U.S. are roughly three and half times more likely to die from pregnancy-related complications than white women", /*0*/
-"Criminalising abortion doesn’t stop abortions, it only makes it unsafe", /*1*/
-"Around 9 in 10 abortions occur during the first trimester", /*2*/
-"Almost every death and injury from unsafe abortion can be prevented", /*3*/
-"Only about half of immigrant women at risk for unintended pregnancy received contraceptive care in the last year. In contrast, two-thirds of U.S. born women received contraceptive care", /*4*/
+"The average college student produces 640 pounds of solid waste each year, including 500 disposable cups and 320 pounds of paper.", /*0*/
+"The US makes up only 5% of the world population, but it throws away enough plastic bottles in a week to encircle the Earth 5 times!", /*1*/
+"", /*2*/
+"On average, ONE supermarket goes through 60,500,000 paper bags per year! Bring a reusable bag instead!", /*3*/
+"25% of the bottled water you buy is really municipal tap water, so you might as well pass on the plastic bottle", /*4*/  
 ]
 
 var fact = document.getElementById("fact");
