@@ -74,7 +74,7 @@ ul.navbar {
 
 
 /* STYLE FACT GENERATOR */
-.container {
+.generateFact {
   background: #359240;
   border-radius: 10px;
   border-style: none;
@@ -92,7 +92,7 @@ ul.navbar {
   color: white;
 }
 
-button {
+#fact {
   border-style: none;
   
   padding: 15px;
